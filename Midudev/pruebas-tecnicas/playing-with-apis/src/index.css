@@ -1,0 +1,16 @@
+.card {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.card .imagen {
+  object-fit: content;
+  width: 200px;
+
+}
+
+.card .description {
+  font-family: system-ui;
+  font-size: 22px;
+}

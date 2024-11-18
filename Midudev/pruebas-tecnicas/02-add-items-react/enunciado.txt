@@ -1,0 +1,4 @@
+Añadir y eliminar elementos de una lista (React)
+Crear una app en React que implemente un campo de texto y un botón para añadir elmentos a una lista.
+Al pulsar en el botón, el texto del campo se deberá agregar a una lista de elementos.
+Además cada vez que se pulse cada elemento de la lista, se deberá borrar.

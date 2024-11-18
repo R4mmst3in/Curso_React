@@ -1,0 +1,19 @@
+Dadas estas 2 APIS
+- https://catfact.ninja/fact - Cat random Fatcs
+- 'https://api.thecatapi.com/v1/images/search
+
+Selecciona un datos dosbre gatos usando la primera API.
+
+X-CSRF-TOKEN: h5aiARpimUdF6xxiXZyEXveKSLmCI3Nsevqc6s9j'
+
+curl -X 'GET' \
+  'https://catfact.ninja/fact' \
+  -H 'accept: application/json' \
+  -H 'X-CSRF-TOKEN: h5aiARpimUdF6xxiXZyEXveKSLmCI3Nsevqc6s9j'
+
+De este dato, usa las tres primeras palabras y busca un gif usando la segunda la api de Giphy.
+
+El resultado se tiene que mostra con una imagen a la izquierda y el texto a la derecha, todo centrado verticalmente.
+
+Esta e la API key de Giphy
+const API_KEY = 'h5aiARpimUdF6xxiXZyEXveKSLmCI3Nsevqc6s9j'
