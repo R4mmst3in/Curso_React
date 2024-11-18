@@ -1,0 +1,6 @@
+Creando el proyecto
+
+npm create vite@latest mi_proyecto
+cd mi_proyecto
+npm install
+npm run dev
